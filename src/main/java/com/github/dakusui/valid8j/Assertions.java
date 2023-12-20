@@ -1,9 +1,5 @@
 package com.github.dakusui.valid8j;
 
-//import com.github.dakusui.pcond.core.fluent.builtins.ObjectTransformer;
-//import com.github.dakusui.pcond.fluent.Statement;
-//import com.github.dakusui.pcond.validator.Validator;
-
 import com.github.dakusui.valid8j_pcond.core.fluent.builtins.ObjectTransformer;
 import com.github.dakusui.valid8j_pcond.fluent.Statement;
 import com.github.dakusui.valid8j_pcond.validator.Validator;
