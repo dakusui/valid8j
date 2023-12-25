@@ -21,7 +21,9 @@ jobs:
           distribution: adopt
           java-version: 8
           cache: maven
-      - name: Build with Maven
+      - name: Install xmllint
+        run: apt -y install libxml2-utils
+      - name: Clean maven
         run: mvn -B clean
       - name: import pcond
         run: bash src/main/build_tools/import-pcond.sh
