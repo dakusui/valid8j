@@ -22,7 +22,7 @@ jobs:
           java-version: 8
           cache: maven
       - name: Install xmllint
-        run: apt -y install libxml2-utils
+        run: sudo apt -y install libxml2-utils
       - name: Clean maven
         run: mvn -B clean
       - name: import pcond
